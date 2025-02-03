@@ -1,4 +1,4 @@
-DateE = "2025-01-10"  -- Format tahun-bulan-hari
+DateE = "2025-03-01"  -- Format tahun-bulan-hari
 DateToday = os.date("%Y-%m-%d")  -- Mengambil tanggal hari ini dalam format yang sama
  
 if DateToday >= DateE then
@@ -17,7 +17,7 @@ if DateToday >= DateE then
 end
 -----------------------------------------------------------------------------
 ---Password Script
-      local Passwords = {"bidzz","","10jan",""}
+      local Passwords = {"bidzz","","buffy","vjcg"}
 local Menu = gg.prompt({"Password: "},nil,{"text"})
 if not Menu then return end
 for l , I in pairs(Passwords) do
